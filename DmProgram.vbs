@@ -1,8 +1,8 @@
 Function Example()
 	For iCounter = 1 to 10
-	Otvet=InputBox("Введи плз текст: ", "DmProgram")
+	Otvet=InputBox("Input text: ", "DmProgram")
 	If Otvet = "" THEN WScript.Quit 0
-	'MsgBox "Вы ввели: " & Otvet
+	'MsgBox "Text: " & Otvet
  	Set objVoice=CreateObject("SAPI.SpVoice")
 	'Set objVoice.Voice = objVoice.GetVoices.Item(1)
 	'objVoice.Speak Otvet
